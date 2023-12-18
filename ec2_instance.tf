@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAS3WB72JTF2VQ2D4P"
-  secret_key = "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"
 }
 
 resource "aws_eip" "eip" {
